@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Thing</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="mainDiv">
+			<div id="inputDiv" class="innerDiv">
+				<span>Start -</span>
+				<input id="min-start" type="number" style="margin-left:27px;margin-bottom:10px;">
+				<span>:</span>
+				<input id="sec-start" type="number">
+				<span>Q</span>
+				<input id="q-start" type="number"><br>
+				<span>Timeout -</span>
+				<input id="min-dur" type="number">
+				<span>:</span>
+				<input id="sec-dur" type="number">
+				<button onclick="Calc.add()">Add</button><br>
+			</div>
+			<div id="outputDiv" class="innerDiv">
+				<table id="out">
+					<tr>
+						<td>TS</td>
+						<td>QS</td>
+						<td>TE</td>
+						<td>QE</td>
+						<td>DEL</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
